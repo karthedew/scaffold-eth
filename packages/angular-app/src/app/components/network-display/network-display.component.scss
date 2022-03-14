@@ -1,0 +1,15 @@
+.network-display {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 60;
+    padding: 16px;
+}
+
+.button {
+    border-radius: 50px;
+    font-size: large;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}

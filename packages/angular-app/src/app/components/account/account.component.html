@@ -1,0 +1,18 @@
+<div class="account">
+    <button
+    *ngIf="isConnected"
+    nz-button
+    nzType="default"
+    class="button"
+    nzShape="round"
+    nzSize="large">logout</button>
+
+    <button
+    *ngIf="!isConnected"
+    nz-button
+    nzType="default"
+    class="button"
+    nzShape="round"
+    nzSize="large"
+    (click)="connectWeb3Modal()">connect</button>
+</div>
